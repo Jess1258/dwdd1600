@@ -1,0 +1,182 @@
+body{
+  font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin:0   
+}
+
+/* header stuff starts here */
+
+Header{
+    background-color: #e5f3fd;
+    padding: 1rem 2%;
+    
+}
+
+header h1 {
+    margin: 0;
+    color: #071c34;
+}
+
+header p {
+    margin: 0;
+    ;color: #355070;
+    letter-spacing: 1px;
+}
+
+/*nav stuff goes here*/
+
+nav{
+    background-color: #87b2cc;}
+
+nav ul{
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;}
+
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color:#071c34;
+    font-weight: 500;
+    display: block;
+    padding: .60rem 1rem;}
+    
+nav li.active a {
+    background-color:#071c34;
+        color: #87b2cc;}
+
+nav a:hover {
+    color: #fff;}
+
+
+
+/*main stuff goes here*/
+
+main {
+    padding: 1rem 2%;
+}
+main h1 {
+    color: #144361;}
+    
+    main h2 {
+    color: #6298bc;
+    margin-bottom: .2rem}
+
+    main h3 {
+    color: #355070;
+    margin-bottom: .2rem}
+
+main p {
+    color: #144361;
+    margin:0 0 .7rem 0}
+
+main ol{
+    padding: .5rem 4%;
+    background-color: #efefef}
+
+main dl dt {
+    color: #144361;
+    font-weight: 400;}
+
+main dl dd {
+ color: #144361; 
+        font-size: 1rem;}
+
+main dl p{
+    color:#6298bc;
+}
+
+main ul dl p {
+    color: #6298bc;
+    margin:0 0 .5rem 0}
+
+main ul{
+    list-style-type: circle;
+    color: #144361;}
+
+main ul li {
+    line-height: 130%;
+    margin-bottom: .7rem;
+    font-size: 1rem;}
+
+main address{
+    font-style: normal;
+    background-color: #e5f3fd;
+    padding: .2rem 1rem;
+    width: 12.5rem;
+    border: 2px solid #355070;
+    border-radius: 2rem;
+    border-color:#071c34;
+    margin-bottom: .8rem;}
+
+
+main a {
+    color: #0f52ba;}
+
+main a:hover{ color:#87b2cc;}
+
+/*Ol stuff goes here*/
+
+main ol{color: #144361;
+    
+}
+ main ol{
+    list-style-type: upper-roman;
+    color: #144361;}
+
+/*Footer stuff goes here*/
+
+footer{
+    background-color: #eaeaea;
+    text-align: center;
+    color: #024873;
+    padding: 1rem 0;
+    font-size: .8rem;
+    clear:both;}
+
+footer a {
+     color: #0f52ba;}
+
+footer a:hover{ color:#87b2cc;}
+
+
+figure.wrapped{
+    width: 30%;
+    margin: 0 1% 0 2%;
+    float: right;} 
+
+figure.wrapped img{
+    width: 100%;
+    height: auto;}
+
+figure.wrapped figcaption{
+    text-align: center;
+    font-size: .80rem;}
+
+
+div.gallery{
+    display: flex;
+    flex-wrap: wrap;}
+
+div.gallery figure{
+    margin: .7rem 2% 3% 0;
+}
+
+div.gallery figcaption{
+    text-align: center;
+    font-size: .8rem; 
+    color: #355070;
+    font-style: normal;
+    background-color: #e5f3fd;
+    padding: .2rem 3.1rem;
+    width: 12.5rem;
+    border: 2px solid #355070;
+    border-radius: 2rem;
+    border-color:#071c34;
+    margin-bottom: .8rem;}
+
+
+
+    
