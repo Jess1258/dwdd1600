@@ -1,0 +1,416 @@
+/* prevent problems with differnt browsers*/
+*{box-sizing: border-box;}
+
+
+
+body{
+   font-family:'Comfortaa', cursive;
+    font-size: 17px;
+    font-weight: 300;
+    margin:0   
+}
+
+
+
+
+.plane {
+    width: 60%;
+    margin: 2% 0 4% 3%;
+    float: right;
+
+}
+
+.plane img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+}    
+
+
+
+/* header stuff starts here */
+
+header img{
+    margin: 1rem;}
+ header div{
+    padding-left: 1vw;
+    padding-bottom: 1vw;}   
+    
+    
+header h1 {
+    margin: 0;
+    color: #141850;
+}
+ header {
+    padding: 1vw;
+    display: flex;
+    align-items: flex-end;
+    margin: 2vw;
+    background-color: #fae5df;
+    
+  
+}
+    
+    
+header p {
+    margin: 6px 2px;
+    ;color: #303179;
+    letter-spacing: 3px;
+}
+
+
+
+
+/*main stuff goes here*/
+
+main {
+    padding: 1rem 2%;
+}
+main h1 {
+    color: #f4c2c7;
+    margin: 0 .6vw;}
+    
+    main h2 {
+    color: white;
+    padding: 0 0;
+    margin: 0;
+    align-items:flex-end;
+    background-color:#ed7966;
+    padding:1vw;
+    display: flex;}
+
+    main h3 {
+    color: #f4c2c7;
+    margin: 2vw 1vw;}
+
+
+main p {
+    color:#141850;
+    margin:0 0 .7rem 0;
+    padding:1vw;}
+
+
+main dl dt {
+    text-transform: uppercase;
+    color: #f4c2c7;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 2vw 1vw;
+    text-align: center;}
+
+main dl dd {
+ color: #144361; 
+        font-size: 1rem;
+        text-align: center;}
+
+
+main ul{
+    list-style-type: circle;
+    color: #144361;}
+
+main ul li {
+    line-height: 130%;
+    margin-bottom: .7rem;
+    font-size: 1rem;}
+
+
+/*end of main stuff*/    
+    
+
+a{
+    color:#141850;
+    margin: 4vw 2.5vw;
+}
+
+a:hover{
+    color:#ed7966;}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+.gallery img {
+    width: 100%;
+    height: auto;}
+    
+.gallery img:hover {
+    box-shadow: 4px 3px 13px #ed7966;}
+    
+
+div.gallery figure{
+    margin: .7rem 2%;
+    align-content: center;
+    padding: .5rem .5rem;
+    background-color: #fae5df;
+
+}
+    
+ div.figcaption{
+        align-content: center;
+    }
+    
+div.gallery figcaption{
+    text-align: center;
+    font-size: 1rem; 
+    color: #141850;
+    background-color: #f4c2c7;
+    padding: .5rem;
+    border-radius: 2rem 0;
+    margin: 1rem 0;
+    margin-right: .7rem;
+    }
+
+.myform a{
+    padding:0 0 0 0;
+    margin:.4rem;
+}
+    
+.myform fieldset h2{
+    font-size: 1.1rem;
+    background-color:#f4c2c7;
+    color: #355070;
+    font-family:'Comfortaa', cursive;
+    font-weight: 200;
+    padding: .4rem .2rem .4rem .2rem;
+
+}
+
+.myform{
+    border: 10px dotted #141850;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    padding: .2rem 1.1rem 2rem;
+    background-color:#fae5df;
+}
+
+.myform legend{
+    color: #141850;
+    font-size: 2rem;
+    border: solid 3px #141850;
+    padding: .4rem 2rem;
+    width: 265px;
+    border-radius:.8rem;
+    font-family:'Comfortaa', cursive;
+    font-weight: 400;
+}
+
+.myform [type=text], .myform [type=tel], .myform textarea {
+    display:block;}
+
+    
+    header, nav, main, footer {
+    max-width: 80rem;
+    margin: auto;
+}
+
+
+
+/*Package Stuff*/ 
+
+.header {
+    color:#ed7966;
+    font-size: 18px;
+    padding: 1rem 0;
+    margin:0;
+}   
+
+label{
+ color:#355070;
+ margin:0;
+}
+
+
+textarea {
+    height: 7rem;
+    margin: .5rem 0;
+    padding: 2rem;
+    
+}
+
+.myform [type=text], .myform [type=tel], .myform select, .myform textarea{
+    border: solid 1px #888;
+    padding: .4rem;
+    margin:.5rem 0;
+    width: 200px;
+    border-radius:.2rem;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 300;}
+
+
+.myform [type=submit]{
+    background-color: #f4c2c7;
+    border: dotted 4px;
+    padding: .5rem 3rem .5rem 3rem;
+    border-radius: 15px;
+    border-color: #141850;
+    color: #141850;
+    font-size: 17px;
+    margin: .5rem;}
+
+
+
+
+
+/*Footer stuff goes here*/
+
+footer{
+    background-color: #fae5df;
+    text-align: center;
+    color: #141850;
+    padding: 1rem 0;
+    font-size: .8rem;
+    clear:both;}
+
+footer a {
+     color: #ed7966;
+    margin: 0;}
+
+footer a:hover{ color:#f4c2c7;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BIG Screens*/
+@media only screen and (min-width: 843px) 
+
+{
+    
+    /*nav stuff goes here*/
+
+nav ul{
+    list-style-type: none;
+    padding: 0 0;
+    margin: 0;
+    display: flex;}
+
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color:#141850;
+    font-weight: 400;
+    display: block;
+    padding: 1rem 1rem;
+    margin: 0vw;
+    text-transform: uppercase;
+    text-align: center;}
+    
+   nav .active a{
+        background-image: linear-gradient(to top, #ed7966, #fc9988);
+       color: white;}
+
+nav a:hover {
+    color: white;}
+    
+nav{
+    background-color:#f4c2c7;}
+
+
+.myform figure.wrapped img{
+    width: 100%;
+    height: 100%;
+    padding:0;}
+
+.myform figure.wrapped{
+    width: 50%;
+    margin: 2% 2% 2% 1%;
+    float: left;} 
+    
+.myform p {
+    font-family:'Comfortaa', cursive;
+    font-weight: 200;
+    font-size: .9rem;
+    padding: .8rem 5rem .2rem;
+    margin: 2rem 0 2.2rem 0;}
+    
+    }
+
+
+
+
+
+
+
+/* SMALL screens */
+@media only screen and (max-width: 844px) {
+   
+
+    
+   nav{
+     background-color:#f4c2c7;}
+
+    
+    nav ul {margin: 0;
+        padding: 0 2vw;
+        list-style-type: none;}
+        
+   nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color:#141850;
+    font-weight: 400;
+    display: block;
+    padding: 1rem 1rem;
+    margin: 0vw;
+    text-transform: uppercase;
+    text-align: center;}
+
+    nav .active a{
+        background-image: linear-gradient(to top, #ed7966, #fc9988);
+        color: white;}
+
+   nav a:hover {
+    color: white;}
+    
+    
+.myform figure.wrapped img{
+    width: 100%;
+    height: 100%;
+    padding:0;}
+
+.myform figure.wrapped{
+    width: 50%;
+    margin: 2% 24% 2% 23%;
+    float: left;} 
+    
+ .myform p {
+    font-family:'Comfortaa', cursive;
+    font-weight: 200;
+    font-size: .8rem;
+    padding: 1rem 0;
+    margin: 1.3rem;}   
+    
+}
+      
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
